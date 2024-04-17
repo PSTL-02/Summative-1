@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- nav -->
+    <header class="navigation-header">
+        <nav>
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="./img/bxb-logo.png" alt="birdies x brews">
+            </div>
+            <!-- Navigation items -->
+            <div class="navigation-items" id="navigation-items">
+                <a href="">Specials</a>
+                <a href="">Snacks</a>
+                <a href="./drink.html">Drinks</a>
+                <!-- cart overlay -->
+                <a id="openModal">Cart</a>
+
+                <div id="overlay"></div>
+
+                <div id="modal">
+                    <div id="modalContent">
+                        <span id="closeModal">&times;</span>
+                        <h2>Cart</h2>
+
+                        <div class="cart-menu">
+                            <!-- Menu item 1 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">Veggie</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$24</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">Mushrooms, red onion, capsicum, with basil
+                                    pesto on a thin and crispy base.</p>
+                            </div>
+
+                            <!-- Menu item 2 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">Garlic Bread</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$11</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">Garlic butter on brioche.</p>
+                            </div>
+
+                            <!-- Menu item 3 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">The 19th Hole (Signature Cocktail)</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$15</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">White rum, Cranberry, Pineapple and Orange juice,
+                                    garnished with a slice of lemon.</p>
+                            </div>
+
+                            <div class="button-cont2">
+                                <a href="./check-out.html" class="button2">Check out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hamburger icon - open and close -->
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" id="openHam"></i>
+                <i class="fa-solid fa-xmark" id="closeHam"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- End of nav -->
+
+    <!-- menu start -->
+    <div class="menu-container" >
+        <h3>FRIDAY SPECIALS</h3>
+        <h4>Happy Hours! (4-6pm)</h4>
+        <div class="menu-items-cont">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">20% off all tap beers! (4-6pm)</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Celebrate the weekend with 20% off on all
+                    your favourite tap beers!</p>
+            </div>
+
+            <!-- Menu item 2 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">20% off all cocktails! (4-6pm)</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Have a break away from the golf and enjoy
+                    a cocktail from our great selection!</p>
+            </div>
+
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Chicken poppers or Cauliflower bites</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$10</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Feeling a little snacky? Have a go at our
+                    delicious bites with your choice of sauce!</p>
+            </div>
+
+            <!-- Menu item 4 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Sauces</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">BBQ /
+                    Aioli / Sweet Chili / Franks Hot Sauce / Mayo/ Ketchup</p>
+            </div>
+        </div>
+        <!-- End of Menu items -->
+    </div>
+
+    <!-- menu start snacks -->
+    <div class="menu-container" >
+        <h3 id="snacks">SNACKS</h3>
+        <h4>PIZZA</h4>
+        <div class="menu-items-cont">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Bacon & Mushroom</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$26</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Streaky bacon bits and sliced mushrooms
+                    on a thin and crispy base, with BBQ drizzle.</p>
+            </div>
+
+            <!-- Menu item 2 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Meat Lovers</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$26</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Classic style Pepperoni and bacon bits on a
+                    thin and crispy base, with BBQ drizzle</p>
+            </div>
+
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Pepperoni</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$24</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Classic style Pepperoni on a thin and crispy
+                    base.</p>
+            </div>
+
+            <!-- Menu item 4 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Veggie</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$24</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Mushrooms, red onion, capsicum, with basil
+                    pesto on a thin and crispy base.</p>
+            </div>
+        </div>
+        <!-- End of Menu items -->
+    </div>
+
+    <!-- menu start snacks -->
+    <div class="menu-container" >
+        <h4>TO SHARE</h4>
+        <div class="menu-items-cont">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Garlic Bread</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$11</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Garlic butter on brioche.</p>
+            </div>
+
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Tortilla Chips & Dips</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$8</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Fresh tortilla chips with dips</p>
+            </div>
+
+            <!-- Menu item 4 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Fries (V)</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$12</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Served with ketchup & aioli.</p>
+            </div>
+
+            <!-- Menu item 5 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">FMac 'n' Cheese Bites</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$14</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Bacon bits, mac 'n' cheese served with sour
+                    cream and spring onions.</p>
+            </div>
+
+            <!-- Menu item 6 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Jalapeño 'n' Cheese Bites</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$14</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Served with sour cream and spring onions.</p>
+            </div>
+
+
+            <!-- Menu item 6 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Cheesy Garlic Bread</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$13</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Garlic butter and mozzarella on brioche.</p>
+            </div>
+
+            <!-- Menu item 7 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Loaded Fries</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$16</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Fries loaded with bacon bits, mozzarella,
+                    cheese sauce, BBQ sauce, spring onions
+                    and sweet chili sauce. Dairy free on request.</p>
+            </div>
+
+            <!-- Menu item 8 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Veggie Loaded Fries (V)</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$16</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Veggie fries with red onion, jalapeño,
+                    cheese sauce, sour cream, spring onions
+                    and sweet chilli sauce. Dairy free on request.</p>
+            </div>
+        </div>
+        <!-- End of Menu items -->
+    </div>
+
+
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/882ccf7f1a.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- nav -->
+    <header class="navigation-header">
+        <nav>
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="./img/bxb-logo.png" alt="birdies x brews">
+            </div>
+            <!-- Navigation items -->
+            <div class="navigation-items" id="navigation-items">
+                <a href="./food.html">Specials</a>
+                <a href="./food.html#snacks">Snacks</a>
+                <a href="#">Drinks</a>
+                <!-- cart overlay -->
+                <a id="openModal">Cart</a>
+
+                <div id="overlay"></div>
+
+                <div id="modal">
+                    <div id="modalContent">
+                        <span id="closeModal">&times;</span>
+                        <h2>Cart</h2>
+
+                        <div class="cart-menu">
+                            <!-- Menu item 1 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">Veggie</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$24</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">Mushrooms, red onion, capsicum, with basil
+                                    pesto on a thin and crispy base.</p>
+                            </div>
+
+                            <!-- Menu item 2 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">Garlic Bread</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$11</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">Garlic butter on brioche.</p>
+                            </div>
+
+                            <!-- Menu item 3 -->
+                            <div class="menu-item">
+                                <div class="title-price">
+                                    <!-- dish Mane -->
+                                    <h3 class="meun-heading">The 19th Hole (Signature Cocktail)</h3>
+                                    <div class="price-diet">
+                                        <!-- price and diet  -->
+                                        <h3 class="menu-price">$15</h3>
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </div>
+                                </div>
+                                <!-- dish description -->
+                                <p class="menu-desc">White rum, Cranberry, Pineapple and Orange juice,
+                                    garnished with a slice of lemon.</p>
+                            </div>
+
+                            <div class="button-cont2">
+                                <a href="./check-out.html" class="button2">Check out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hamburger icon - open and close -->
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" id="openHam"></i>
+                <i class="fa-solid fa-xmark" id="closeHam"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- End of nav -->
+
+    <div class="outer-box">
+
+        <div class="iner-box">
+            <h2>BEER & CIDER</h2>
+            <p>Ask our friendly team what's on tap today!</p>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Peroni 5.1% <br>
+                        Peroni Libera 0.0% <br>
+                        Asahi 5.1% <br>
+                        Somersby Apple Cider 4.5%
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $9.0 +<br>
+                        $9.0 +<br>
+                        $9.0 +<br>
+                        $9.0 +
+                    </p>
+                </div>
+            </div>
+
+            <h3>Parrotdog</h3>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Bitterbitch IPA 5.8% <br>
+                        Sundog Pilsner 5.2% <br>
+                        Yellowhammer Hazy Pale Ale 4.8% <br>
+                        Falcon APA 5.4%
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $9.0 +<br>
+                        $9.0 +<br>
+                        $9.0 +<br>
+                        $9.0 +
+                    </p>
+                </div>
+            </div>
+
+            <h3>Double Vision</h3>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Chillax XPA 5.0% <br>
+                        The Classic Lager 4.5% <br>
+                        Expatriate APA 5.6% <br>
+                        Red Rascal Red IPA 6.3% <br>
+                        Smooth Operator Cream Ale 4.7%
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $9.0 +<br>
+                        $8.5 +<br>
+                        $9.0 +<br>
+                        $10 +<br>
+                        $9.0 +
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="iner-box2">
+            <h2>NON ALCOHOLIC </h2>
+            <h3>Coffee</h3>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Flat White <br>
+                        Latte <br>
+                        Cappuccino <br>
+                        Long Black <br>
+                        Short Black <br>
+                        Mocha <br>
+                        Hot Chocolate
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $4.5 +<br>
+                        $4.5 +<br>
+                        $4.5 +<br>
+                        $4 +<br>
+                        $4 +<br>
+                        $4.5 +<br>
+                        $4.5 +
+                    </p>
+                </div>
+            </div>
+
+            <h3>Soft Drinks</h3>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Coke, Coke Zero, <br>
+                        Fanta and Sprite <br>
+                        Ginger Beer
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $3.5 +<br>
+                        <br>$5 +
+                    </p>
+                </div>
+            </div>
+
+            <h3>Juices</h3>
+            <div class="inline-box">
+                <div class="drink-items">
+                    <p>
+                        Apple, Orange <br>
+                        and Pineapple
+                    </p>
+                </div>
+                <div class="prices">
+                    <p>
+                        $3.5 +
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- menu start drinks -->
+    <div class="menu-container">
+        <h3>COCKTAILS</h3>
+
+        <div class="menu-items-cont">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Espresso Martini</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$18</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Espresso shot, Kahlua and vodka with a coffee
+                    bean garnish.</p>
+            </div>
+
+            <!-- Menu item 2 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Blue Lagoon</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Vodka, triple sec, lemonade and lemon slice for
+                    garnish.</p>
+            </div>
+
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Niklaus Negroni</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$18</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Gin, Campari and vermouth, garnished with an
+                    orange slice.</p>
+            </div>
+
+            <!-- Menu item 4 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Gin Sour</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Gin, simple syrup, lemon juice, and egg-white.</p>
+            </div>
+
+            <!-- Menu item 5 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Jamaican Blue</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Dark rum, Kahlua, lime juice and Coca-Cola,
+                    garnished with a lime wedge.</p>
+            </div>
+
+            <!-- Menu item 6 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Lemon Drop</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Vodka, lemon juice, simple syrup, garnished with a
+                    sugar rim and lemon wedge.</p>
+            </div>
+
+            <!-- Menu item 7 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Molinari's Mojito</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">White rum, lime juice, simple syrup, mint and soda
+                    water, garnished with fresh mint.</p>
+            </div>
+
+            <!-- Menu item 8 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Moscow Mule</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Vodka, lime juice and ginger ale, garnished with
+                    fresh mint.</p>
+            </div>
+
+            <!-- Menu item 9 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Whiskey Sour</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Whiskey, simple syrup, lemon juice, and eggwhite.</p>
+            </div>
+
+            <!-- Menu item 10 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Seve Cerveza</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Tequila, lime juice, simple syrup, topped with
+                    Double Vision Repeat Offender Pilsner. Salt rim
+                    with a cucumber and lime garnish.</p>
+            </div>
+
+            <!-- Menu item 11 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">The 19th Hole (Signature Cocktail)
+                    </h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">White rum, Cranberry, Pineapple and Orange juice,
+                    garnished with a slice of lemon.</p>
+            </div>
+
+            <!-- Menu item 12 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Old Fashioned</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <h2 class="menu-price">$15</h2>
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Tequila, Maker's Mark Whiskey, Angostura bitters
+                    and simple syrup, garnished with an orange twist</p>
+            </div>
+        </div>
+        <!-- End of Menu items -->
+    </div>
+
+
+    <!-- menu start snacks -->
+    <div class="menu-container">
+        <h3>MOCKTAILS</h3>
+        <h4>ALL FOR JUST $8</h4>
+        <div class="menu-items-cont">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Arnold Palmer</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Ice tea and lemonade, garnished with mint and a lemon
+                    wedge.</p>
+            </div>
+
+            <!-- Menu item 2 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Virgin Cucumber Gimlet</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Lime juice and soda water, garnished with fresh mint.</p>
+            </div>
+
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Virgin Moscow Mule</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Ginger Ale, lime juice and soda water, garnished with fresh
+                    mint.</p>
+            </div>
+
+            <!-- Menu item 4 -->
+            <div class="menu-item">
+                <div class="title-price">
+                    <!-- dish Mane -->
+                    <h2 class="meun-heading">Vanilla Raspberry Spritz</h2>
+                    <div class="price-diet">
+                        <!-- price and diet  -->
+                        <p>+</p>
+                    </div>
+                </div>
+                <!-- dish description -->
+                <p class="menu-desc">Raspberry, vanilla and lemon juice, topped with sodawater.</p>
+            </div>
+        </div>
+        <!-- End of Menu items -->
+    </div>
+
+
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/882ccf7f1a.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
